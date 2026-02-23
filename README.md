@@ -1,3 +1,4 @@
+
 🤖 AI Emotion Detection App
 
 
@@ -159,6 +160,5 @@ Password: 1234
 
 
 To provide a simple, fast, and professional AI tool for understanding emotions in text.
-
 
 

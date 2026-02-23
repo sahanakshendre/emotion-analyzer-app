@@ -1,13 +1,9 @@
-/* ===== GLOBAL ===== */
 body {
     font-family: 'Segoe UI', sans-serif;
 }
-
 .stApp {
     background-color: #f4f6f9;
 }
-
-/* ===== MAIN CARD CONTAINER ===== */
 .block-container {
     background: white;
     padding: 2.5rem;
@@ -15,30 +11,22 @@ body {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
     margin-top: 20px;
 }
-
-/* ===== HEADINGS ===== */
 h1, h2, h3 {
     color: #1f2937;
     font-weight: 600;
 }
-
-/* ===== METRICS STYLE ===== */
 [data-testid="metric-container"] {
     background-color: #ffffff;
     border-radius: 12px;
     padding: 15px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
 }
-
-/* ===== TEXT AREA ===== */
 textarea {
     border-radius: 10px !important;
     border: 1px solid #d1d5db !important;
     padding: 12px !important;
     font-size: 15px !important;
 }
-
-/* ===== BUTTON STYLE ===== */
 .stButton>button {
     background: linear-gradient(90deg, #667eea, #764ba2);
     color: white;
@@ -49,29 +37,20 @@ textarea {
     width: 100%;
     transition: all 0.3s ease;
 }
-
 .stButton>button:hover {
     transform: scale(1.03);
     background: linear-gradient(90deg, #5a67d8, #6b46c1);
 }
-
-/* ===== SUCCESS BOX ===== */
 .stSuccess {
     border-radius: 10px;
     font-size: 16px;
 }
-
-/* ===== NAVBAR FIX ===== */
 .navbar {
     margin-bottom: 30px;
 }
-
-/* Option menu styling */
 .navbar-nav > li > a {
     font-weight: 500;
 }
-
-/* ===== BAR CHART SPACING ===== */
 canvas {
     margin-top: 20px !important;
 }

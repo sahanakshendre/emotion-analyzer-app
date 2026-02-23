@@ -14,9 +14,9 @@ import hashlib
 
 st.set_page_config(page_title="AI Emotion Analyzer Pro", layout="wide")
 
-# =====================================================
+
 # 🔐 AUTHENTICATION SYSTEM (Login / Register / Reset)
-# =====================================================
+
 
 conn = sqlite3.connect("users.db", check_same_thread=False)
 c = conn.cursor()
@@ -38,7 +38,8 @@ if "authenticated" not in st.session_state:
 def auth_page():
     option = st.selectbox("Select Option", ["Login", "Register", "Forgot Password"])
 
-    # -------- LOGIN --------
+    #  LOGIN 
+    
     if option == "Login":
         st.title("🔐 Login")
 
@@ -99,9 +100,9 @@ def logout():
     st.session_state.authenticated = False
     st.rerun()
 
-# =====================================================
+
 # 📄 REPORT GENERATION
-# =====================================================
+
 
 def create_docx(text, top_emotion, confidence, chart_buf):
     doc = Document()
@@ -138,9 +139,9 @@ def create_pdf(text, top_emotion, confidence, chart_buf):
     buffer.seek(0)
     return buffer
 
-# =====================================================
+
 # 🤖 LOAD MODEL
-# =====================================================
+
 
 @st.cache_resource
 def load_model():
@@ -152,24 +153,23 @@ def load_model():
 
 classifier = load_model()
 
-# =====================================================
+
 # 📜 STORE HISTORY
-# =====================================================
+
 
 if "history" not in st.session_state:
     st.session_state.history = []
 
-# =====================================================
 # 🔐 CHECK LOGIN
-# =====================================================
+
 
 if not st.session_state.authenticated:
     auth_page()
     st.stop()
 
-# =====================================================
+
 # 🧭 NAVIGATION
-# =====================================================
+
 
 selected = option_menu(
     menu_title=None,
@@ -182,9 +182,7 @@ st.write("---")
 if st.button("🚪 Logout"):
     logout()
 
-# =====================================================
 # 📊 DASHBOARD
-# =====================================================
 
 if selected == "Dashboard":
     st.title("🤖 Advanced AI Emotion Analyzer")
@@ -204,9 +202,9 @@ if selected == "Dashboard":
     🔹 Download professional reports  
     """)
 
-# =====================================================
+
 # 💬 ANALYZE
-# =====================================================
+
 
 elif selected == "Analyze":
     st.header("💬 Enter Text for Emotion Analysis")
@@ -264,9 +262,9 @@ elif selected == "Analyze":
                                create_pdf(user_input, top_emotion, confidence, buf),
                                "emotion_report.pdf")
 
-# =====================================================
+
 # 📜 HISTORY
-# =====================================================
+
 
 elif selected == "History":
     st.title("📜 Analysis History")
@@ -284,9 +282,9 @@ elif selected == "History":
     else:
         st.info("No analysis history yet.")
 
-# =====================================================
+
 # 📊 COMPARE
-# =====================================================
+
 
 elif selected == "Compare":
     st.title("📊 Compare Two Texts")
@@ -304,9 +302,8 @@ elif selected == "Compare":
         else:
             st.warning("Please enter both texts.")
 
-# =====================================================
 # 📈 STATISTICS
-# =====================================================
+
 
 elif selected == "Statistics":
     st.title("📈 Emotion Statistics")
@@ -326,9 +323,8 @@ elif selected == "Statistics":
     else:
         st.info("No data available.")
 
-# =====================================================
 # ℹ️ ABOUT
-# =====================================================
+
 
 elif selected == "About":
     st.title("About This Application")
