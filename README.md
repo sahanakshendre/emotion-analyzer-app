@@ -1,5 +1,5 @@
 
-#🤖 AI Emotion Detection App
+# 🤖 AI Emotion Detection App
 
 
 
@@ -11,7 +11,7 @@ This app allows users to enter a sentence or paragraph and instantly detect the 
 
 
 
-🚀 Features
+# 🚀 Features
 
 
 
@@ -49,7 +49,7 @@ This app allows users to enter a sentence or paragraph and instantly detect the 
 
 
 
-🛠️ How It Works
+# 🛠️ How It Works
 
 
 
@@ -79,7 +79,7 @@ Download professional report if required
 
 
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 
 
@@ -109,7 +109,7 @@ python-docx
 
 
 
-📦 Installation
+# 📦 Installation
 
 
 
@@ -125,7 +125,7 @@ git clone https://github.com/your-username/emotion-detection-app.git
 
 
 
-Install dependencies:
+# Install dependencies:
 
 
 
@@ -135,7 +135,7 @@ pip install -r requirements.txt
 
 
 
-Run the app:
+# Run the app:
 
 
 
@@ -145,7 +145,7 @@ streamlit run app.py
 
 
 
-🔐 Demo Login
+# 🔐 Demo Login
 
 
 
@@ -155,7 +155,7 @@ Password: 1234
 
 
 
-🎯 Goal
+# 🎯 Goal
 
 
 
