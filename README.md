@@ -1,4 +1,3 @@
-
 # 🤖 AI Emotion Detection App
 
 
@@ -44,6 +43,36 @@ This app allows users to enter a sentence or paragraph and instantly detect the 
 
 
 🎯 Simple, Clean \& Professional Interface
+
+
+
+
+
+📸 Application Screenshots
+
+
+
+🔐 Login Page
+
+
+
+🏠 Dashboard
+
+
+
+💬 Analyze Page
+
+
+
+📜 History Page
+
+
+
+📊 Compare Page
+
+
+
+📈 Statistics Page
 
 
 
@@ -160,5 +189,10 @@ Password: 1234
 
 
 To provide a simple, fast, and professional AI tool for understanding emotions in text.
+
+
+
+
+
 
 
