@@ -3,3 +3,6 @@ transformers
 torch
 streamlit-option-menu
 matplotlib
+python-docx
+reportlab
+Pillow
