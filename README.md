@@ -48,7 +48,7 @@ This app allows users to enter a sentence or paragraph and instantly detect the 
 
 
 
-📸 Application Screenshots
+# 📸 Application Screenshots
 
 
 
