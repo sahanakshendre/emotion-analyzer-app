@@ -54,7 +54,7 @@ This app allows users to enter a sentence or paragraph and instantly detect the 
 
 🔐 Login Page
 
-
+![login](images/login.png)
 
 🏠 Dashboard
 
