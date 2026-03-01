@@ -56,25 +56,21 @@ This app allows users to enter a sentence or paragraph and instantly detect the 
 
 ![login](images/login.png)
 
-🏠 Dashboard
-
-
-
 💬 Analyze Page
 
-
+![analyze](images/analyze.png)
 
 📜 History Page
 
-
+![history](images/history.png)
 
 📊 Compare Page
 
-
+![compare](images/compare.png)
 
 📈 Statistics Page
 
-
+![statistics](images/statistics.png)
 
 
 
