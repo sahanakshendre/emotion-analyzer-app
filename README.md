@@ -142,7 +142,7 @@ Clone the repository:
 
 
 
-git clone https://github.com/your-username/emotion-detection-app.git
+git clone https://github.com/sahanakshendre/emotion-detection-app.git
 
 
 
